@@ -1,0 +1,2 @@
+export PYTHONPATH=/usr/service:${PYTHONPATH}
+python2.7 -m server 8080

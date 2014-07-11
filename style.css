@@ -1,0 +1,114 @@
+input[type="date"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+.overdue{
+  background: #FA0321;
+  background-image: linear-gradient(#FFAAC5,#FA0321);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(250, 3, 33);
+
+  border-top-color: rgb(244, 63, 92);
+  border-top-style: solid;
+  
+}
+
+.overdue h2 {
+  color: #DFEAF0;
+  text-shadow: 0 1px 0 #0C0B0B;
+}
+
+.overdue p {
+  color: #DFEAF0;
+  text-shadow: 0 1px 0 #0C0B0B;
+}
+
+.overdue:hover{
+    background: #FB6F7A;
+    background-image: linear-gradient(#FFBAC0,#F82730);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(251, 111, 122);
+}
+
+.overdue:active{
+    background: #FCA7A7;
+    background-image: linear-gradient(#F84C4C,#FA0321);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(252, 167, 167);
+}
+
+.dueToday{
+    background: #FA3E03;
+    background-image: linear-gradient(#FFC9AA,#FA4803);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(250, 52, 3);
+    
+    border-top-color: rgb(244, 121, 63);
+    border-top-style: solid;
+}
+
+.dueToday h2 {
+  color: #DFEAF0;
+  text-shadow: 0 1px 0 #0C0B0B;
+}
+
+.dueToday p {
+  color: #DFEAF0;
+  text-shadow: 0 1px 0 #0C0B0B;
+}
+
+.dueToday:hover {
+  background: #FB9C6F;
+  background-image: linear-gradient(#F3AD84,#FC4005);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(251, 150, 111);
+}
+
+.dueToday:active{
+  background: #FCC9A7;
+  background-image: linear-gradient(#F8834C,#FA3403);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(252, 201, 167);
+}
